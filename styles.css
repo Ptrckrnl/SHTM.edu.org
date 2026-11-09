@@ -265,13 +265,14 @@ a {
 
 .brand__college {
     color: var(--pink);
-    font: 700 1.25rem/1.15 var(--display-font);
+    font: 700 1.6rem/1.1 var(--display-font);
     letter-spacing: 0.01em;
 }
 
 .brand__dept {
-    max-width: 24ch;
-    font: 700 1.12rem/1.2 var(--display-font);
+    max-width: 25ch;
+    margin-top: 2px;
+    font: 600 0.95rem/1.2 var(--display-font);
 }
 
 .top__actions {
@@ -325,7 +326,7 @@ a {
 .hero {
     position: relative;
     overflow: hidden;
-    padding-top: clamp(3rem, 8vw, 5.5rem);
+    padding: clamp(3rem, 8vw, 5.5rem) 0 clamp(3.5rem, 8vw, 6rem);
     border-bottom: 6px solid var(--pink);
 }
 
@@ -1890,11 +1891,11 @@ textarea.form__input {
     }
 
     .brand__college {
-        font-size: 1.05rem;
+        font-size: 1.3rem;
     }
 
     .brand__dept {
-        font-size: 0.98rem;
+        font-size: 0.82rem;
     }
 
     .lead-card {
@@ -2065,11 +2066,11 @@ textarea.form__input {
 /* ---------- Very narrow phones: keep the school name on two lines ---------- */
 @media (max-width: 379px) {
     .brand__college {
-        font-size: 0.95rem;
+        font-size: 1.15rem;
     }
 
     .brand__dept {
-        font-size: 0.88rem;
+        font-size: 0.76rem;
     }
 
     .theme-toggle {
