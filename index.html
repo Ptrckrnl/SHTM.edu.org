@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>School of Hospitality and Tourism Management | Southland College</title>
+<meta name="description" content="Southland College School of Hospitality and Tourism Management in Kabankalan City: BS Hospitality Management and BS Tourism Management programs, student life, LTSP officers, faculty, admission steps, and inquiries.">
+<meta name="theme-color" content="#D10F55">
+<link rel="icon" href="images/shtm-logo-small.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Figtree:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script>
+  /* Runs before the page paints: remembers the chosen theme and turns on scroll animations */
+  document.documentElement.classList.add('js');
+  try { var t = localStorage.getItem('shtm-theme'); if (t) document.documentElement.setAttribute('data-theme', t); } catch (e) {}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- ================= HEADER ================= -->
+<header class="top">
+  <div class="top__bar">
+    <a class="brand" href="#home">
+      <img class="brand__logo" src="images/shtm-logo-small.png" alt="SHTM logo" width="263" height="266">
+      <span class="brand__text"><span class="brand__college">Southland College</span><span class="brand__dept">School of Hospitality and Tourism Management</span></span>
+    </a>
+
+    <nav class="nav" aria-label="Main">
+      <ul class="nav__list" id="nav-list">
+        <li><a class="nav__link" href="#about">About</a></li>
+        <li><a class="nav__link" href="#programs">Programs</a></li>
+        <li><a class="nav__link" href="#life">Student life</a></li>
+        <li><a class="nav__link" href="#ltsp">LTSP</a></li>
+        <li><a class="nav__link" href="#faculty">Faculty</a></li>
+        <li><a class="nav__link" href="#admission">Admission</a></li>
+        <li><a class="nav__link" href="#faq">FAQ</a></li>
+        <li><a class="nav__link nav__link--cta" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="top__actions">
+      <button class="icon-btn theme-toggle" type="button" aria-pressed="false" aria-label="Switch to dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5" fill="currentColor"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 1.5v2.5M12 20v2.5M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M1.5 12H4M20 12h2.5M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8"/></g></svg>
+      </button>
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-list">Menu</button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="home" aria-labelledby="hero-title">
+    <div class="hero__bg" aria-hidden="true">
+      <img src="images/hero-hm.jpg" alt="" width="1400" height="789">
+      <img src="images/hero-tm.jpg" alt="" width="1400" height="1101">
+    </div>
+    <div class="wrap hero__grid">
+      <div class="hero__copy">
+        <p class="eyebrow">Southland College &middot; Kabankalan City</p>
+        <h1 class="hero__title" id="hero-title">School of Hospitality and <em>Tourism</em> Management</h1>
+        <p class="hero__tag">Crafting world-class experiences in the vibrant tourism industry.</p>
+        <div class="hero__actions">
+          <a class="btn" href="#admission">Start your admission</a>
+          <a class="btn btn--ghost" href="#programs">Explore programs</a>
+        </div>
+      </div>
+
+      <!-- Decorative boarding pass (travel theme) -->
+      <div class="pass" aria-hidden="true">
+        <div class="pass__top">
+          <img src="images/shtm-logo-small.png" alt="" width="40" height="40">
+          <div><p class="pass__label">Boarding pass</p><p class="pass__airline">SHTM Southland</p></div>
+        </div>
+        <div class="pass__route">
+          <div><p class="pass__code">SLC</p><p class="pass__place">Southland College</p></div>
+          <div class="pass__line">
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5z"/></svg>
+          </div>
+          <div class="pass__to"><p class="pass__code">IND</p><p class="pass__place">The industry</p></div>
+        </div>
+        <dl class="pass__grid">
+          <div><dt>Passenger</dt><dd>Future you</dd></div>
+          <div><dt>Gate</dt><dd>BSHM &middot; BSTM</dd></div>
+          <div><dt>Duration</dt><dd>4 years</dd></div>
+        </dl>
+        <div class="pass__stub">
+          <div><p class="pass__label">Class</p><p class="pass__class">Learn by doing</p></div>
+          <span class="pass__barcode"></span>
+        </div>
+      </div>
+    </div>
+
+    <ul class="wrap facts">
+      <li><strong>2</strong><span>degree programs</span></li>
+      <li><strong>4</strong><span>years per program</span></li>
+      <li><strong>9</strong><span>faculty and staff</span></li>
+      <li><strong>OJT</strong><span>in real workplaces</span></li>
+    </ul>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section class="block" id="about" aria-labelledby="about-title">
+    <div class="wrap about">
+      <div class="block__head reveal">
+        <p class="eyebrow">About the school</p>
+        <h2 class="block__title" id="about-title">Learn the industry by working in it</h2>
+        <p class="about__lead">We prepare students for leadership roles in the global hospitality and tourism industry.</p>
+        <p class="block__intro">Students learn by doing, from practice in school labs to training in real workplaces.</p>
+      </div>
+      <ol class="learn">
+        <li class="reveal"><h3>Lab practice</h3><p>Kitchen work, food and beverage service, front office, and housekeeping in school training areas.</p></li>
+        <li class="reveal"><h3>Events and tours</h3><p>Students plan and run school events and tour activities.</p></li>
+        <li class="reveal"><h3>On-the-job training</h3><p>Supervised training in hotels, restaurants, and travel and tour companies.</p></li>
+        <li class="reveal"><h3>Industry partners</h3><p>Real work experience with partner businesses, with some international exposure.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ================= VISION AND MISSION ================= -->
+  <section class="vm" id="vision" aria-labelledby="vm-title">
+    <div class="wrap">
+      <div class="vm__head reveal">
+        <img class="vm__seal" src="images/southland-logo.png" alt="" width="56" height="54">
+        <div>
+          <p class="eyebrow">Southland College</p>
+          <h2 class="vm__title" id="vm-title">Vision and Mission</h2>
+        </div>
+      </div>
+      <div class="vm__grid">
+        <figure class="vm__item reveal">
+          <figcaption class="vm__label">Vision</figcaption>
+          <blockquote>The zenith educational institution that produces top-tier graduates to reign supreme in the global arena.</blockquote>
+        </figure>
+        <figure class="vm__item reveal">
+          <figcaption class="vm__label">Mission</figcaption>
+          <blockquote>Southland College is committed to enlightening the enterprising minds and molding the hearts of individuals as beacons of success in all aspects of their life and career in the midst of a metamorphic world.</blockquote>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROGRAMS ================= -->
+  <section class="block block--tint" id="programs" aria-labelledby="programs-title">
+    <div class="wrap">
+      <div class="block__head reveal">
+        <p class="eyebrow">Programs</p>
+        <h2 class="block__title" id="programs-title">Two paths, one industry</h2>
+        <p class="block__intro">Two four-year degree programs to start your career in hospitality or tourism.</p>
+      </div>
+
+      <div class="tickets">
+        <article class="ticket reveal">
+          <div class="ticket__head"><p class="ticket__code">BSHM</p><p class="ticket__meta">4 years</p></div>
+          <div class="ticket__body">
+            <h3>Bachelor of Science in Hospitality Management</h3>
+            <p class="ticket__summary">For students who want to run hotels, restaurants, and events.</p>
+            <h4>What you will learn</h4>
+            <ul class="checklist">
+              <li>Hotel and restaurant operations</li>
+              <li>Front office and housekeeping</li>
+              <li>Food and beverage service</li>
+              <li>Event management</li>
+            </ul>
+            <h4>Possible career paths</h4>
+            <ul class="chips">
+              <li>Front office staff</li><li>F&amp;B supervisor</li><li>Events coordinator</li><li>Housekeeping supervisor</li><li>Restaurant manager</li>
+            </ul>
+          </div>
+          <div class="ticket__foot"><a class="ticket__link" href="#contact" data-topic="Programs and courses" data-msg="I would like to know more about the BSHM program.">Inquire about BSHM &rarr;</a></div>
+        </article>
+
+        <article class="ticket reveal">
+          <div class="ticket__head"><p class="ticket__code">BSTM</p><p class="ticket__meta">4 years</p></div>
+          <div class="ticket__body">
+            <h3>Bachelor of Science in Tourism Management</h3>
+            <p class="ticket__summary">For students who want to plan trips, tours, and destinations.</p>
+            <h4>What you will learn</h4>
+            <ul class="checklist">
+              <li>Travel and tour operations</li>
+              <li>Destination planning</li>
+              <li>Sustainable tourism</li>
+              <li>Tourism marketing</li>
+            </ul>
+            <h4>Possible career paths</h4>
+            <ul class="chips">
+              <li>Travel agent</li><li>Tour coordinator</li><li>Tour guide</li><li>Tourism officer</li><li>Tourism marketing staff</li>
+            </ul>
+          </div>
+          <div class="ticket__foot"><a class="ticket__link" href="#contact" data-topic="Programs and courses" data-msg="I would like to know more about the BSTM program.">Inquire about BSTM &rarr;</a></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= STUDENT LIFE ================= -->
+  <section class="block" id="life" aria-labelledby="life-title">
+    <div class="wrap">
+      <div class="block__head reveal">
+        <p class="eyebrow">Student life</p>
+        <h2 class="block__title" id="life-title">What our students do</h2>
+        <p class="block__intro">From the kitchen lab to the cabin aisle, SHTM students practice the real work of hospitality and tourism.</p>
+      </div>
+
+      <div class="tracks">
+        <article class="track track--hm reveal">
+          <p class="track__code">HM</p>
+          <h3>Hospitality Management students</h3>
+          <ul class="checklist">
+            <li>Cook and plate dishes in the kitchen lab</li>
+            <li>Mix drinks and perform bar service</li>
+            <li>Present their dishes to instructors for evaluation</li>
+            <li>Compete in skills events like the Skills Olympics</li>
+          </ul>
+        </article>
+        <article class="track track--tm reveal">
+          <p class="track__code">TM</p>
+          <h3>Tourism Management students</h3>
+          <ul class="checklist">
+            <li>Train in cabin crew grooming and uniform standards</li>
+            <li>Plan and present day-by-day tour packages</li>
+            <li>Welcome guests with professional service</li>
+            <li>Join school events and tour activities</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="filters" role="group" aria-label="Filter photos by program">
+        <button class="filter" type="button" data-filter="all" aria-pressed="true">All</button>
+        <button class="filter" type="button" data-filter="hm" aria-pressed="false">Hospitality (HM)</button>
+        <button class="filter" type="button" data-filter="tm" aria-pressed="false">Tourism (TM)</button>
+      </div>
+
+      <ul class="gallery">
+        <li class="shot shot--big reveal" data-cat="hm">
+          <button class="shot__open" type="button" aria-label="View larger photo: Flair bartending at Skills Olympics 2026">
+            <img src="images/hm-skills-olympics-bartending.jpg" alt="A student in a vest performs bartending on stage at the Skills Olympics 2026 in CityMall Kabankalan" width="1600" height="1067" loading="lazy">
+          </button>
+          <div class="shot__text">
+            <span class="tag tag--hm">HM</span>
+            <h3>Flair bartending on stage</h3>
+            <p>A student shows his bar skills at Skills Olympics 2026, held at CityMall Kabankalan.</p>
+          </div>
+        </li>
+        <li class="shot shot--tall reveal" data-cat="tm">
+          <button class="shot__open" type="button" aria-label="View larger photo: Cabin crew in uniform">
+            <img class="shot__img--top" src="images/tm-cabin-crew-uniform.jpg" alt="Two students in blue cabin crew uniforms stand with travel luggage" width="1200" height="1600" loading="lazy">
+          </button>
+          <div class="shot__text">
+            <span class="tag tag--tm">TM</span>
+            <h3>Cabin crew in uniform</h3>
+            <p>Students suit up in airline uniforms to practice flight attendant grooming and poise.</p>
+          </div>
+        </li>
+        <li class="shot shot--wide reveal" data-cat="hm">
+          <button class="shot__open" type="button" aria-label="View larger photo: Culinary class in the kitchen lab">
+            <img src="images/hm-culinary-class.jpg" alt="A large class of students in chef uniforms poses behind a table of plated dishes" width="1600" height="902" loading="lazy">
+          </button>
+          <div class="shot__text">
+            <span class="tag tag--hm">HM</span>
+            <h3>Culinary class in the lab</h3>
+            <p>A full class in chef whites with the dishes they cooked and plated at Hotel Southlandia.</p>
+          </div>
+        </li>
+        <li class="shot shot--tall reveal" data-cat="tm">
+          <button class="shot__open" type="button" aria-label="View larger photo: Cabin crew showcase">
+            <img class="shot__img--low" src="images/tm-cabin-crew-showcase.jpg" alt="A large group of tourism students in different airline-style cabin crew uniforms pose together with their instructor" width="1200" height="1600" loading="lazy">
+          </button>
+          <div class="shot__text">
+            <span class="tag tag--tm">TM</span>
+            <h3>Cabin crew showcase</h3>
+            <p>Tourism students dress in airline-inspired uniforms from around the world for a cabin crew activity.</p>
+          </div>
+        </li>
+        <li class="shot reveal" data-cat="tm">
+          <button class="shot__open" type="button" aria-label="View larger photo: Service with a smile">
+            <img src="images/tm-guest-greeting.jpg" alt="Students in uniform and their instructors place a hand on their hearts in a welcome greeting" width="1600" height="1280" loading="lazy">
+          </button>
+          <div class="shot__text">
+            <span class="tag tag--tm">TM</span>
+            <h3>Service with a smile</h3>
+            <p>Tourism students practice warm, professional greetings for guests and travelers.</p>
+          </div>
+        </li>
+        <li class="shot reveal" data-cat="hm">
+          <button class="shot__open" type="button" aria-label="View larger photo: Plated and presented">
+            <img src="images/hm-plated-dishes.jpg" alt="Students in chef uniforms and their instructors stand behind three plated dishes" width="1600" height="1200" loading="lazy">
+          </button>
+          <div class="shot__text">
+            <span class="tag tag--hm">HM</span>
+            <h3>Plated and presented</h3>
+            <p>Students serve their finished dishes to instructors for tasting and feedback.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <dialog class="lightbox" aria-labelledby="lightbox-title">
+      <form method="dialog"><button class="lightbox__close icon-btn" aria-label="Close photo">&times;</button></form>
+      <img class="lightbox__img" alt="">
+      <div class="lightbox__text"><p class="lightbox__title" id="lightbox-title"></p><p class="lightbox__caption"></p></div>
+    </dialog>
+  </section>
+
+  <!-- ================= LTSP OFFICERS ================= -->
+  <section class="block block--tint ltsp" id="ltsp" aria-labelledby="ltsp-title">
+    <div class="wrap">
+      <div class="ltsp__head reveal">
+        <img class="ltsp__logo" src="images/ltsp-logo.png" alt="LTSP Southland College logo" width="300" height="300">
+        <div>
+          <p class="eyebrow">Student organization</p>
+          <h2 class="block__title" id="ltsp-title">League of Tourism Students of the Philippines</h2>
+          <p class="ltsp__term">LTSP Southland College &middot; 2026&ndash;2027 Officers</p>
+          <p class="block__intro">Meet the Tourism Management students who lead LTSP this school year, from the executive board to the representatives of every BSTM class.</p>
+        </div>
+      </div>
+
+      <h3 class="ltsp__group">Adviser and President</h3>
+      <ul class="officers officers--lead">
+          <li class="officer officer--lead reveal">
+            <div class="officer__photo"><img src="images/ltsp-adviser.jpg" alt="Portrait of Lenday Kate Abunyawan, LTSP Adviser" width="640" height="800" loading="lazy"><span class="officer__role">Adviser</span></div>
+            <p class="officer__name">Lenday Kate Abunyawan</p>
+            <p class="officer__nick">&ldquo;Miss Lendsss&rdquo;</p>
+          </li>
+          <li class="officer officer--lead reveal">
+            <div class="officer__photo"><img src="images/ltsp-president.jpg" alt="Portrait of Stephanie Saldua, LTSP President" width="640" height="800" loading="lazy"><span class="officer__role">President</span></div>
+            <p class="officer__name">Stephanie Saldua</p>
+            <p class="officer__nick">&ldquo;Pres on Duty&rdquo;</p>
+          </li>
+      </ul>
+
+      <h3 class="ltsp__group">Executive board</h3>
+      <ul class="officers">
+          <li class="officer reveal">
+            <div class="officer__photo"><img src="images/ltsp-vice-president.jpg" alt="Portrait of Myrrh Halang, LTSP Vice President" width="640" height="800" loading="lazy"><span class="officer__role">Vice President</span></div>
+            <p class="officer__name">Myrrh Halang</p>
+            <p class="officer__nick">&ldquo;Mer?&rdquo;</p>
+          </li>
+          <li class="officer reveal">
+            <div class="officer__photo"><img src="images/ltsp-secretary.jpg" alt="Portrait of Summer Ba&ntilde;as, LTSP Secretary" width="640" height="800" loading="lazy"><span class="officer__role">Secretary</span></div>
+            <p class="officer__name">Summer Ba&ntilde;as</p>
+            <p class="officer__nick">&ldquo;Sam Number 1&rdquo;</p>
+          </li>
+          <li class="officer reveal">
+            <div class="officer__photo"><img src="images/ltsp-treasurer.jpg" alt="Portrait of Rose Emily Bautista, LTSP Treasurer" width="640" height="800" loading="lazy"><span class="officer__role">Treasurer</span></div>
+            <p class="officer__name">Rose Emily Bautista</p>
+            <p class="officer__nick">&ldquo;CEO of Bayad Na?&rdquo;</p>
+          </li>
+          <li class="officer reveal">
+            <div class="officer__photo"><img src="images/ltsp-auditor.jpg" alt="Portrait of Angelica Claud, LTSP Auditor" width="640" height="800" loading="lazy"><span class="officer__role">Auditor</span></div>
+            <p class="officer__name">Angelica Claud</p>
+            <p class="officer__nick">&ldquo;Audit Ninja&rdquo;</p>
+          </li>
+          <li class="officer reveal">
+            <div class="officer__photo"><img src="images/ltsp-business-manager.jpg" alt="Portrait of Dona Jean Puyogao, LTSP Business Manager" width="640" height="800" loading="lazy"><span class="officer__role">Business Manager</span></div>
+            <p class="officer__name">Dona Jean Puyogao</p>
+            <p class="officer__nick">&ldquo;Dona the Explorer&rdquo;</p>
+          </li>
+          <li class="officer reveal">
+            <div class="officer__photo"><img src="images/ltsp-pio.jpg" alt="Portrait of Kimberly Hsin Salgado, LTSP PIO" width="640" height="800" loading="lazy"><span class="officer__role">PIO</span></div>
+            <p class="officer__name">Kimberly Hsin Salgado</p>
+            <p class="officer__nick">&ldquo;Hsin&rdquo;</p>
+          </li>
+          <li class="officer reveal">
+            <div class="officer__photo"><img src="images/ltsp-publication.jpg" alt="Portrait of Ysadee Jenne Garzon, LTSP Publication" width="640" height="800" loading="lazy"><span class="officer__role">Publication</span></div>
+            <p class="officer__name">Ysadee Jenne Garzon</p>
+            <p class="officer__nick">&ldquo;Miss Canva &amp; Polkadots&rdquo;</p>
+          </li>
+          <li class="officer reveal">
+            <div class="officer__photo"><img src="images/ltsp-documentation.jpg" alt="Portrait of Janine L. Luzuriaga, LTSP Documentation" width="640" height="800" loading="lazy"><span class="officer__role">Documentation</span></div>
+            <p class="officer__name">Janine L. Luzuriaga</p>
+            <p class="officer__nick">&ldquo;Purple Docu&rdquo;</p>
+          </li>
+      </ul>
+
+      <h3 class="ltsp__group">Class representatives</h3>
+      <ul class="officers officers--reps">
+          <li class="officer reveal">
+            <div class="officer__photo"><img src="images/ltsp-rep-1a.jpg" alt="Portrait of Samantha Jane Torres, LTSP BSTM 1A" width="640" height="800" loading="lazy"><span class="officer__role">BSTM 1A</span></div>
+            <p class="officer__name">Samantha Jane Torres</p>
+            <p class="officer__nick">&ldquo;Miss Ma Late Ko Nang Ha&rdquo;</p>
+          </li>
+          <li class="officer reveal">
+            <div class="officer__photo"><img src="images/ltsp-rep-1b.jpg" alt="Portrait of Jewela Vergara, LTSP BSTM 1B" width="640" height="800" loading="lazy"><span class="officer__role">BSTM 1B</span></div>
+            <p class="officer__name">Jewela Vergara</p>
+            <p class="officer__nick">&ldquo;Mayora ng 1B&rdquo;</p>
+          </li>
+          <li class="officer reveal">
+            <div class="officer__photo"><img src="images/ltsp-rep-2a.jpg" alt="Portrait of Noel Jay Palata, LTSP BSTM 2A" width="640" height="800" loading="lazy"><span class="officer__role">BSTM 2A</span></div>
+            <p class="officer__name">Noel Jay Palata</p>
+            <p class="officer__nick">&ldquo;Captain Noel&rdquo;</p>
+          </li>
+          <li class="officer reveal">
+            <div class="officer__photo"><img src="images/ltsp-rep-2b.jpg" alt="Portrait of Nieves Grace Perez, LTSP BSTM 2B" width="640" height="800" loading="lazy"><span class="officer__role">BSTM 2B</span></div>
+            <p class="officer__name">Nieves Grace Perez</p>
+            <p class="officer__nick">&ldquo;Nebes&rdquo;</p>
+          </li>
+          <li class="officer reveal">
+            <div class="officer__photo"><img src="images/ltsp-rep-3a.jpg" alt="Portrait of Jonathan Cagud Jr., LTSP BSTM 3A" width="640" height="800" loading="lazy"><span class="officer__role">BSTM 3A</span></div>
+            <p class="officer__name">Jonathan Cagud Jr.</p>
+            <p class="officer__nick">&ldquo;Thanakorn&rdquo;</p>
+          </li>
+          <li class="officer reveal">
+            <div class="officer__photo"><img src="images/ltsp-rep-3b.jpg" alt="Portrait of Kyl Elijan, LTSP BSTM 3B" width="640" height="800" loading="lazy"><span class="officer__role">BSTM 3B</span></div>
+            <p class="officer__name">Kyl Elijan</p>
+            <p class="officer__nick">&ldquo;Kyky&rdquo;</p>
+          </li>
+          <li class="officer reveal">
+            <div class="officer__photo"><img src="images/ltsp-rep-4a.jpg" alt="Portrait of Kissel Kate Librando, LTSP BSTM 4A" width="640" height="800" loading="lazy"><span class="officer__role">BSTM 4A</span></div>
+            <p class="officer__name">Kissel Kate Librando</p>
+            <p class="officer__nick">&ldquo;Rep by Circumstance&rdquo;</p>
+          </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= FACULTY ================= -->
+  <section class="block" id="faculty" aria-labelledby="faculty-title">
+    <div class="wrap">
+      <div class="block__head reveal">
+        <p class="eyebrow">Faculty and staff</p>
+        <h2 class="block__title" id="faculty-title">Meet your instructors</h2>
+        <p class="block__intro">The people who teach and lead the School of Hospitality and Tourism Management.</p>
+      </div>
+
+      <div class="lead-card reveal">
+        <span class="badge__photo badge__initials" aria-hidden="true">BT</span>
+        <div>
+          <p class="lead-card__role">Program Head</p>
+          <p class="lead-card__name">Brian C. Tamayo</p>
+          <p class="lead-card__text">Leads the School of Hospitality and Tourism Management and its BSHM and BSTM programs.</p>
+        </div>
+      </div>
+
+      <ul class="badges">
+        <li class="badge reveal"><img class="badge__photo" src="images/maverick-t-soriano.jpg" alt="Portrait of Maverick T. Soriano" width="56" height="56"><p class="badge__name">Maverick T. Soriano</p><p class="badge__role">SHTM Faculty</p></li>
+        <li class="badge reveal"><img class="badge__photo" src="images/kate-cent-o-lim.jpg" alt="Portrait of Kate Cent O. Lim, LPT" width="56" height="56"><p class="badge__name">Kate Cent O. Lim, LPT</p><p class="badge__role">SHTM Faculty</p></li>
+        <li class="badge reveal"><img class="badge__photo" src="images/daneilla-t-gelasan.jpg" alt="Portrait of Daneilla T. Gelasan" width="56" height="56"><p class="badge__name">Daneilla T. Gelasan</p><p class="badge__role">SHTM Faculty</p></li>
+        <li class="badge reveal"><img class="badge__photo badge__photo--fill" src="images/LEEENDAY.jpg" alt="Portrait of Lenday Kate L. Abunyawan" width="56" height="56"><p class="badge__name">Lenday Kate L. Abunyawan</p><p class="badge__role">SHTM Faculty &middot; LTSP Adviser</p></li>
+        <li class="badge reveal"><span class="badge__photo badge__initials" aria-hidden="true">SB</span><p class="badge__name">Shyrlene H. Buatag</p><p class="badge__role">SHTM Faculty</p></li>
+        <li class="badge reveal"><span class="badge__photo badge__initials" aria-hidden="true">RF</span><p class="badge__name">Raybelle M. Flores</p><p class="badge__role">SHTM Faculty</p></li>
+        <li class="badge reveal"><span class="badge__photo badge__initials" aria-hidden="true">EM</span><p class="badge__name">Ensio Miranda</p><p class="badge__role">SHTM Faculty</p></li>
+        <li class="badge reveal"><span class="badge__photo badge__initials" aria-hidden="true">JO</span><p class="badge__name">Jasmine Oclarit</p><p class="badge__role">SHTM Faculty</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= ADMISSION ================= -->
+  <section class="block block--tint" id="admission" aria-labelledby="admission-title">
+    <div class="wrap">
+      <div class="block__head reveal">
+        <p class="eyebrow">Admission</p>
+        <h2 class="block__title" id="admission-title">How to join SHTM</h2>
+        <p class="block__intro">Four steps from your first question to your first day.</p>
+      </div>
+
+      <ol class="path">
+        <li class="reveal"><h3>Choose your program</h3><p>Pick Hospitality Management or Tourism Management. Not sure yet? Ask us.</p></li>
+        <li class="reveal"><h3>Send an inquiry</h3><p>Use the form below or email <a href="mailto:shtm@southland.edu.ph">shtm@southland.edu.ph</a>.</p></li>
+        <li class="reveal"><h3>Get guidance</h3><p>The department office replies by email with the requirements and next steps.</p></li>
+        <li class="reveal"><h3>Enroll</h3><p>Submit your requirements and start your journey at SHTM.</p></li>
+      </ol>
+
+      <div class="callout reveal">
+        <p>Planning to enroll? The department office will guide you.</p>
+        <a class="btn" href="#contact" data-topic="Admission" data-msg="I am planning to enroll and would like to know the admission requirements.">Ask about admission</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FAQ ================= -->
+  <section class="block" id="faq" aria-labelledby="faq-title">
+    <div class="wrap faq-layout">
+      <div class="block__head reveal">
+        <p class="eyebrow">FAQ</p>
+        <h2 class="block__title" id="faq-title">Common questions</h2>
+        <p class="block__intro">Quick answers for students and parents. Still curious? Send us a message.</p>
+      </div>
+
+      <div class="faq">
+        <details class="reveal">
+          <summary>What programs does SHTM offer?</summary>
+          <p>Two four-year degrees: Bachelor of Science in Hospitality Management (BSHM) and Bachelor of Science in Tourism Management (BSTM).</p>
+        </details>
+        <details class="reveal">
+          <summary>What is the difference between BSHM and BSTM?</summary>
+          <p>BSHM focuses on hotels, restaurants, food and beverage service, and events. BSTM focuses on travel and tour operations, destinations, sustainable tourism, and tourism marketing.</p>
+        </details>
+        <details class="reveal">
+          <summary>Will I train outside the school?</summary>
+          <p>Yes. Students take supervised on-the-job training in hotels, restaurants, and travel and tour companies, after practicing in the school's training labs.</p>
+        </details>
+        <details class="reveal">
+          <summary>How do I ask about admission requirements?</summary>
+          <p>Send an inquiry through the contact form or email shtm@southland.edu.ph. The department office will reply with the requirements.</p>
+        </details>
+        <details class="reveal">
+          <summary>Where is the office and when is it open?</summary>
+          <p>The SHTM Office is at Southland College, Kabankalan City, Negros Occidental. It is open Monday to Friday, 8:00 AM to 5:00 PM.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="block block--dark" id="contact" aria-labelledby="contact-title">
+    <div class="wrap contact">
+      <div class="reveal">
+        <p class="eyebrow">Contact</p>
+        <h2 class="block__title" id="contact-title">Contact and inquiries</h2>
+        <p class="block__intro">Send us a message and the department office will reply by email.</p>
+        <dl class="contact__info">
+          <div><dt>Office</dt><dd>SHTM Office, Southland College<br>Kabankalan City, Negros Occidental</dd></div>
+          <div><dt>Office hours</dt><dd>Monday to Friday, 8:00 AM to 5:00 PM</dd></div>
+          <div><dt>Email</dt><dd><a href="mailto:shtm@southland.edu.ph">shtm@southland.edu.ph</a></dd></div>
+        </dl>
+      </div>
+
+      <form class="form reveal" id="inquiry-form" novalidate>
+        <div class="form__grid">
+          <div class="form__field"><label class="form__label" for="name">Full name</label><input class="form__input" id="name" name="name" type="text" autocomplete="name" required aria-describedby="name-error"><p class="form__error" id="name-error"></p></div>
+          <div class="form__field"><label class="form__label" for="email">Email address</label><input class="form__input" id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-error"><p class="form__error" id="email-error"></p></div>
+        </div>
+        <div class="form__field"><label class="form__label" for="topic">Topic</label><select class="form__input" id="topic" name="topic"><option>Admission</option><option>Programs and courses</option><option>OJT and partnerships</option><option>Other</option></select></div>
+        <div class="form__field"><label class="form__label" for="message">Message</label><textarea class="form__input" id="message" name="message" rows="4" required aria-describedby="message-error"></textarea><p class="form__error" id="message-error"></p></div>
+        <button class="btn" type="submit">Send inquiry</button>
+        <p class="form__hint">Sending opens your email app with the inquiry ready to send.</p>
+        <p class="form__status" id="form-status" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="wrap footer__grid">
+    <div class="footer__brand">
+      <img class="footer__logo" src="images/southland-logo.png" alt="Southland College logo" width="56" height="54">
+      <div>
+        <p class="footer__name">Southland College</p>
+        <p>School of Hospitality and Tourism Management</p>
+      </div>
+    </div>
+    <div>
+      <p class="footer__title">Explore</p>
+      <ul class="footer__links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#programs">Programs</a></li>
+        <li><a href="#life">Student life</a></li>
+        <li><a href="#ltsp">LTSP officers</a></li>
+        <li><a href="#faculty">Faculty</a></li>
+        <li><a href="#admission">Admission</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer__title">Visit us</p>
+      <p>Kabankalan City, Negros Occidental<br>Monday to Friday, 8:00 AM to 5:00 PM<br><a href="mailto:shtm@southland.edu.ph">shtm@southland.edu.ph</a></p>
+    </div>
+  </div>
+  <div class="wrap footer__bottom">
+    <p>&copy; 2026 Southland College, School of Hospitality and Tourism Management.</p>
+  </div>
+</footer>
+
+<a class="to-top" href="#home" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" d="M6 14l6-6 6 6"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
